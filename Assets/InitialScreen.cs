@@ -10,7 +10,7 @@ public class InitialScreen : MenuScreen {
     [System.Serializable]
     public class PasswordThing {
         public string pass;
-        public InputField InputField;
+        [HideInInspector] public InputField InputField;
     }
 
     public PasswordThing[] Passwords;
